@@ -1,0 +1,6 @@
+A:\Projects\Visual Studio Projects\TheEgosphere\TheEgosphere\TheEgosphere\bin\Debug\TheEgosphere.exe.config
+A:\Projects\Visual Studio Projects\TheEgosphere\TheEgosphere\TheEgosphere\obj\Debug\TheEgosphere.csprojResolveAssemblyReference.cache
+A:\Projects\Visual Studio Projects\TheEgosphere\TheEgosphere\TheEgosphere\bin\Debug\TheEgosphere.exe
+A:\Projects\Visual Studio Projects\TheEgosphere\TheEgosphere\TheEgosphere\bin\Debug\TheEgosphere.pdb
+A:\Projects\Visual Studio Projects\TheEgosphere\TheEgosphere\TheEgosphere\obj\Debug\TheEgosphere.exe
+A:\Projects\Visual Studio Projects\TheEgosphere\TheEgosphere\TheEgosphere\obj\Debug\TheEgosphere.pdb
