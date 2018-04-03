@@ -9,7 +9,6 @@ namespace TheEgosphere
 {
     class filelogger
     {
-        private string dateTimeFormat;
         private string directory;
         private DateTime localDateTime;
         private StreamWriter logWriter;
