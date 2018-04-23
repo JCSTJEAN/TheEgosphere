@@ -13,12 +13,20 @@ namespace TheEgosphere
         private DateTime localDateTime;
         private StreamWriter logWriter;
 
-        public filelogger(string fileNameToUse)
+        //Pass in requested file name to create e.g "logforbulletsfired.txt"
+        //Store append at the beginning the directory of the project file
+        //Create a log Stream Writer 
+        public filelogger(string fileNameAndExtension)
         {
             //to use, file has to use "\\filelog.txt" format
-            directory = Directory.GetCurrentDirectory() + fileNameToUse;
+            directory = Directory.GetCurrentDirectory() + fileNameAndExtension;
 
-            logWriter = new StreamWriter(fileNameToUse);
+            logWriter = new StreamWriter(fileNameAndExtension);
+        }
+
+        ~filelogger()
+        {
+            logWriter.Close();
         }
 
         public void logToFile(string informationToLog)
@@ -26,9 +34,5 @@ namespace TheEgosphere
             localDateTime = DateTime.Now;
             logWriter.WriteLine("[" + localDateTime + "]  " + informationToLog);
         }
-
-        //CALL THIS METHOD TO CLOSE STREAM
-        //If possible consider implementing "using" to make it auto close
-        public void closeStream(){ logWriter.Close(); }
     }
 }
