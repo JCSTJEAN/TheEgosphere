@@ -1,15 +1,8 @@
-﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-
 
 namespace Arbitraries
 {
-
-
     class NumberGenerator
     {
         //THE LONGEST int NUMBER STORABLE IS 9,223,372,036,854,775,807
@@ -158,6 +151,4 @@ namespace Arbitraries
             return true;
         }
     }
-
-
 }
