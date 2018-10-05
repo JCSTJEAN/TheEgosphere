@@ -33,6 +33,7 @@ namespace TheEgosphere
         {
             localDateTime = DateTime.Now;
             logWriter.WriteLine("[" + localDateTime + "]  " + informationToLog);
+            logWriter.Flush();
         }
     }
 }
